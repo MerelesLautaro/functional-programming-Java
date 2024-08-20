@@ -1,4 +1,4 @@
-package org.principal;
+package org.functional;
 
 public class Main {
 
