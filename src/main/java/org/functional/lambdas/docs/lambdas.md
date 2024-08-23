@@ -23,3 +23,21 @@ La sintaxis básica de una expresión lambda consta de tres partes:
 Lista de parámetros de entrada entre paréntesis.
 Una flecha “->” que separa los parámetros de entrada del cuerpo de la función.
 El cuerpo de la función, que puede ser una expresión o un bloque de código.
+
+# Lambdas y Scope
+Las expresiones lambda en Java tienen reglas específicas sobre el alcance (scope)
+de las variables que pueden acceder dentro de su cuerpo. Estas reglas determinan qué variables están disponibles 
+para su uso en la lambda y cómo pueden ser manipuladas.
+0
+#### Mirar el archivo lambdas/ScopeLambdasExample.Java para ejemplos.
+
+# Métodos de Referencia (Method References)
+Los métodos de referencia en Java son una forma más concisa de expresar una expresión lambda que llama a un método existente. 
+En lugar de escribir una lambda que simplemente invoca un método, puedes referenciar ese método directamente 
+usando la sintaxis Class::method.
+
+# Ventajas de los Métodos de Referencia:
+Legibilidad: Los métodos de referencia son más concisos y legibles que las lambdas cuando solo se necesita invocar un método existente.
+Reutilización de código: Permiten reutilizar métodos existentes sin la necesidad de envolverlos en una lambda.
+
+#### Mirar el archivo lambdas/MethodReferencesExample.Java para ejemplos.
